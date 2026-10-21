@@ -1,0 +1,12 @@
+.git
+.gitignore
+README.md
+Dockerfile
+docker-compose.yml
+*.md
+.vscode
+.idea
+bin
+dist
+.env
+internal/api/gen
