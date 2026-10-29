@@ -10,7 +10,7 @@ tags:
   - name: PromoCodes
 
 servers:
-  - url: /
+  - url: http://localhost:8080
 
 security:
   - bearerAuth: []
@@ -463,7 +463,7 @@ components:
       name: X-User-Id
       in: header
       required: true
-      description: ID пользователя (временная заглушка вместо JWT до п.9)
+      description: ID пользователя
       schema:
         type: string
         format: uuid

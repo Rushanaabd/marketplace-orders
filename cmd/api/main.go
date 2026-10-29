@@ -31,6 +31,7 @@ func main() {
 
 	r := gin.New()
 	r.Use(gin.Recovery())
+	r.Use(middleware.CORS()) 
 	r.Use(middleware.RequestLogger())
 
 	gen.RegisterHandlersWithOptions(r, h, gen.GinServerOptions{
